@@ -59,8 +59,14 @@ int main(int argc, const char **argv)
   	float start_y;
   	float end_x;
   	float end_y;
-  	std::cout << "Please enter a number :" << "\n";
-  	std::cin >> start_x >> start_y >> end_x >> end_y;
+  	std::cout << "Please enter starting x coordinate :" << "\n";
+  	std::cin >> start_x;
+    std::cout << "Please enter starting y coordinate :" << "\n";
+    std::cin >> start_y;
+    std::cout << "Please enter final x coordinate :" << "\n";
+  	std::cin >> end_x;
+    std::cout << "Please enter fianl y coordinate :" << "\n";
+  	std::cin >> end_y;
   
 
     // Build Model.
